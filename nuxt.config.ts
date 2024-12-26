@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss'],
   runtimeConfig: {
     public: {
-      apiUrl: process.env.API_URL ?? 'http://localhost:3000',
+      apiUrl: process.env.API_URL ?? 'https://api-parlem.onrender.com/',
     },
   },
 })
